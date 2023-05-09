@@ -1,0 +1,11 @@
+<html>
+<body>
+    <script>
+        var whatsappNumbers = ['5562981586067', '5562981206611'];  // Substitua estes pelos números do Whatsapp que você quer usar.
+
+        var randomIndex = Math.floor(Math.random() * whatsappNumbers.length);
+
+        window.location.href = 'https://wa.me/' + whatsappNumbers[randomIndex];
+    </script>
+</body>
+</html>
