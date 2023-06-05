@@ -5,7 +5,7 @@
 
         var randomIndex = Math.floor(Math.random() * whatsappNumbers.length);
 
-        window.location.href = 'https://wa.me/' + whatsappNumbers[randomIndex];
+        window.location.href = 'https://api.whatsapp.com/send?phone=' + whatsappNumbers[randomIndex];
     </script>
 </body>
 </html>
